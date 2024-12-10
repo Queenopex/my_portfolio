@@ -1,7 +1,4 @@
 import { projects } from '@/data'
-import { desc, img } from 'framer-motion/client'
-import Link from 'next/link'
-import { title } from 'process'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
