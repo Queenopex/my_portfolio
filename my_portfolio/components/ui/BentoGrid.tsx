@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { div, span } from "framer-motion/client";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
