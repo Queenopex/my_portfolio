@@ -1,3 +1,4 @@
+'use client'
 import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
@@ -9,7 +10,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
 
-export default function Home() {
+const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center 
     items-center flex-col mx-auto sm:px-10 overflow-clip">
@@ -27,3 +28,5 @@ export default function Home() {
       </main>
   );
 }
+
+export default Home

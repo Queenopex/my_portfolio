@@ -35,7 +35,7 @@ const Hero = () => {
             />
 
           <p className='text-center md:tracking-wider mb-4 text-sm'>
-            Hi, I'm Oluwapelumi, a Frontend Developer based in Nigeria
+            Hi, I&apos;m Oluwapelumi, a Frontend Developer based in Nigeria
           </p>
           <a href="#about">
             <MagicButton 
