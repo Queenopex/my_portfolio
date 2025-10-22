@@ -34,8 +34,8 @@ const Hero = () => {
             words='Transforming Concepts into Seamless User Experiences'
             />
 
-          <p className='text-center md:tracking-wider mb-4 text-sm'>
-            Hi, I&apos;m Oluwapelumi, a Frontend Developer based in Nigeria
+          <p className='text-center text-bold md:tracking-wider mb-4 text-sm'>
+            Hi, I&apos;m Oluwapelumi, a Frontend Developer based in Nigeria who&apos;s passionate about building user-focused, high-performing digital experiences.
           </p>
           <a href="#about">
             <MagicButton 

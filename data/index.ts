@@ -102,6 +102,22 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/Queenopex/FCC-drum-machine",
     },
+    {
+      id: 5,
+      title: "Car Rental UI",
+      des: " Recreated pixel-perfect UI using atomic design for a car rental platform.",
+      img: "/p5.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/Queenopex/Morent",
+    },
+    {
+      id: 6,
+      title: "Quick Dish",
+      des: "Designed and built a food restaurant with different  app where users can explore and buy quick meals, focusing on clean UI and responsive layouts.",
+      img: "/p6.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/Queenopex/FCC-drum-machine",
+    },
   ];
   
   export const testimonials = [
