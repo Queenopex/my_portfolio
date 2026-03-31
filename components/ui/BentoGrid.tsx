@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
@@ -77,16 +78,20 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute"></div>
             {img && (
-                <img
+                <Image
                 src={img}
-                alt={img}
+                alt={typeof title === "string" ? title : "Grid item image"}
+                width={600}
+                height={600}
                 className={cn(imgClassName, 'object-cover, object-center')} />
             )}
             <div className={`absolute right-0 bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
                 {spareImg && (
-                    <img
+                    <Image
                     src={spareImg}
-                    alt={spareImg}
+                    alt="Decorative grid image"
+                    width={600}
+                    height={600}
                     className={'object-cover, object-center w-full h-full'} />
                 )}
                  </div>
