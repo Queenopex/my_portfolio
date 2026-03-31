@@ -29,12 +29,16 @@ export const InfiniteMovingCards = ({
     }
 
     if (!scrollerRef.current.dataset.duplicated) {
-      const scrollerContent = Array.from(scrollerRef.current.children);
+      const scrollerContent = scrollerRef.current.children;
 
-      scrollerContent.forEach((item) => {
+      if (!scrollerContent.length) {
+        return;
+      }
+
+      for (const item of Array.from(scrollerContent)) {
         const duplicatedItem = item.cloneNode(true);
-        scrollerRef.current?.appendChild(duplicatedItem);
-      });
+        scrollerRef.current.appendChild(duplicatedItem);
+      }
 
       scrollerRef.current.dataset.duplicated = "true";
     }

@@ -4,9 +4,7 @@ import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { GlobeDemo } from "./GridGlobe";
-import Lottie from "react-lottie";
 import { useState } from "react";
-import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -136,17 +134,17 @@ export const BentoGridItem = ({
             </div>)}
             {id=== 6 && (
               <div className="mt-5 relative">
-                <div className={`absolute -bottom-5 right-0`}>
-                <Lottie options={{
-                  loop: copied,
-                autoplay: copied,
-                animationData,
-                rendererSettings:{
-                  preserveAspectRatio: 'xMidYMid slice',
-                }
-              }
-                }/>
-                </div>
+                {copied && (
+                  <div className="pointer-events-none absolute -bottom-5 right-0">
+                    <Image
+                      src="/confetti.gif"
+                      alt=""
+                      width={160}
+                      height={160}
+                      unoptimized
+                    />
+                  </div>
+                )}
                 
 
                   <MagicButton 
