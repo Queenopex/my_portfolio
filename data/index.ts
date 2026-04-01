@@ -202,27 +202,28 @@ export const navItems = [
   ];
   
   export const workExperience = [
+{
+  id: 1,
+  title: "Frontend Engineer Intern - Varens Technology",
+  desc: "Contributed to building responsive web interfaces using Next.js, focusing on improving usability and implementing interactive UI components.",
+  className: "md:col-span-2",
+  thumbnail: "/exp1.svg",
+},
     {
-      id: 1,
-      title: "Frontend Engineer Intern - Varens Technology",
-      desc: "Assisted in the development of a web-based platform using Next.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
+  id: 2,
+  title: "Frontend Engineer - Eonsfleet",
+  desc: "Worked on subscription and billing features, implementing payment flows and handling API interactions while ensuring a smooth and reliable user experience.",
+  className: "md:col-span-2",
+  thumbnail: "/exp2.svg",
+},
+    
     {
-      id: 2,
-      title: "Frontend Engineer - Eonsfleet",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
+  id: 3,
+  title: "Frontend Developer - PetVot Technology",
+  desc: "Built and improved frontend features for a web platform, focusing on responsive design, user experience, and translating product requirements into functional interfaces.",
+  className: "md:col-span-2",
+  thumbnail: "/exp3.svg",
+},
    /* {
       id: 4,
       title: "Lead Frontend Developer",
