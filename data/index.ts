@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -29,7 +31,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "I approach development with a focus on clarity and usability.I pay attention to how data flows through an application, how users interact with it, and how to keep the codebase clean and maintainable as it grows.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +40,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "I focus on building products that are functional, scalable, and actually useful to users.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,7 +51,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a Services Marketplace that connects users with local makeup artists, focusing on role-based logic, structured data filtering, and user-focused flows to improve accessibility and trust.",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -70,16 +72,43 @@ export const navItems = [
   ];
   
   export const projects = [
-    {
+
+      {
       id: 1,
+      title: "GlowNearMe (In Progress)",
+      des: "Building a platform that helps users discover and connect with makeup artists nearby.Implementing role-based logic (client vs artist), structured data filtering, and user-focused flows to improve accessibility and trust.",
+      img: "/glownearme.PNG",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://github.com/Queenopex/Glownearme",
+    },
+
+      {
+      id: 2,
+      title: "Car Rental UI",
+      des: " Recreated pixel-perfect UI using atomic design for a car rental platform.",
+      img: "/p5.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/Queenopex/Morent",
+    },
+
+     {
+      id: 3,
+      title: "Quick Dish",
+      des: "Developed a food ordering application with cart functionality and dynamic UI updates.Structured the interface using reusable components and state management for scalability.",
+      img: "/p6.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/Queenopex/FCC-drum-machine",
+    },
+    {
+      id: 4,
       title: "A Random Quote Machine",
-      des: "A responsive Random Quote Machine that displays and tweets inspirational quotes with dynamic interactivity and clean design.",
+      des: "Built a responsive application that fetches and displays dynamic quotes using API integration.Implemented interactive features including real-time updates and tweet functionality, while maintaining a clean and intuitive user interface.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/Queenopex/FCC-random-quote-machine",
     },
     {
-      id: 2,
+      id: 5,
       title: "A Markdown Previewer",
       des: "An interactive Markdown Previewer that converts GitHub-flavored Markdown to HTML in real-time for seamless editing and visualization.",
       img: "/p2.svg",
@@ -87,7 +116,7 @@ export const navItems = [
       link: "https://github.com/Queenopex/FCC-markdown-previewer",
     },
     {
-      id: 3,
+      id: 6,
       title: "A Javascript Calculator",
       des: "A functional calculator website that performs real-time mathematical operations using formula logic, supporting precise calculations and seamless user input",
       img: "/p3.svg",
@@ -95,35 +124,21 @@ export const navItems = [
       link: "https://github.com/Queenopex/FCC-calculator",
     },
     {
-      id: 4,
+      id: 7,
       title: "A Drum Machine",
       des: "An interactive drum machine website with clickable and keyboard-triggered pads that play audio clips and display corresponding sound names in real time.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/Queenopex/FCC-drum-machine",
     },
-    {
-      id: 5,
-      title: "Car Rental UI",
-      des: " Recreated pixel-perfect UI using atomic design for a car rental platform.",
-      img: "/p5.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Queenopex/Morent",
-    },
-    {
-      id: 6,
-      title: "Quick Dish",
-      des: "Designed and built a food restaurant with different  app where users can explore and buy quick meals, focusing on clean UI and responsive layouts.",
-      img: "/p6.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Queenopex/FCC-drum-machine",
-    },
+  
+   
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Oluwapelumi was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oluwapelumi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oluwapelumi is the ideal partner.",
+        "Working with Oluwapelumi was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our work together. Oluwapelumi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oluwapelumi is the ideal partner.",
       name: "Toyin Abdulsalam",
       title: "Director of Adelaide Coding School",
     },
@@ -131,7 +146,7 @@ export const navItems = [
       quote:
         "Collaborating with Oluwapelumi was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oluwapelumi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oluwapelumi is the ideal partner.",
       name: "Daniel",
-      title: "Director of AlphaStream Technologies",
+      title: "CEO OF Eronlanx Films",
     },
     /*{
       quote:
@@ -189,14 +204,14 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      title: "Frontend Engineer Intern - Varens Technology",
       desc: "Assisted in the development of a web-based platform using Next.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
-    /*{
+    {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Frontend Engineer - Eonsfleet",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
@@ -208,7 +223,7 @@ export const navItems = [
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
-    {
+   /* {
       id: 4,
       title: "Lead Frontend Developer",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
@@ -221,13 +236,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url: "https://github.com/Queenopex/",
     },
     {
       id: 2,
       img: "/twit.svg",
+      url: "https://twitter.com/Queenopex",
     },
     {
       id: 3,
       img: "/link.svg",
+      url: "https://www.linkedin.com/in/ogunbajo-oluwapelumi",
     },
+
   ];

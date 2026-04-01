@@ -13,13 +13,11 @@ const Footer = () => {
 
                 <div className='flex flex-col items-center'>
                     <h1 className='heading lg:max-w-[45vw]'>
-                        Ready to take <span className='text-purple'>your</span> digital
-                        presence to the next level?
+                       Interested in <span className='text-purple'>working together</span>?
                     </h1>
-                    <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let&apos;s discuss how
-                        I can help achieve your goals
+                    <p className='text-white-200 md:mt-10 my-5 text-center'> I’m open to opportunities where I can build real products, solve meaningful problems, and grow as an engineer.
                     </p>
-                    <a href='ogunbajoesther@gmail.com'>
+                    <a href='mailto:ogunbajoesther@gmail.com'>
                     < MagicButton
                     title="Let's get in touch"
                     icon={<FaLocationArrow />}
@@ -29,16 +27,22 @@ const Footer = () => {
                 </div>
 
                 <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
-                    <p className='md:text-base text-small md:font-normal'>Copyright ©2024 Oluwapelumi</p>
+                    <p className='md:text-base text-small md:font-normal'>Copyright ©2026 Oluwapelumi</p>
                     </div>
 
                     <div className='flex eitems-center md:gap-3 gap-6'>
                         {socialMedia.map((profile) => (
-                            <div key={profile.id} className='w-10 h-10 
+                            <a
+                              key={profile.id}
+                              href={profile.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className='w-10 h-10 
                             cursor-pointer flex justify-center items-center backdrop-filter 
-                            backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border border-black-300'>
+                            backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border border-black-300'
+                            >
                                 <Image src={profile.img} alt={`Social icon ${profile.id}`} width={20} height={20} />
-                                </div>
+                            </a>
 
                         ))}
                     </div>
