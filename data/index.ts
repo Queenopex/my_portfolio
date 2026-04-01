@@ -97,7 +97,7 @@ export const navItems = [
       des: "Developed a food ordering application with cart functionality and dynamic UI updates.Structured the interface using reusable components and state management for scalability.",
       img: "/p6.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Queenopex/FCC-drum-machine",
+      link: "https://quick-dish-theta.vercel.app/",
     },
     {
       id: 4,
@@ -105,7 +105,7 @@ export const navItems = [
       des: "Built a responsive application that fetches and displays dynamic quotes using API integration.Implemented interactive features including real-time updates and tweet functionality, while maintaining a clean and intuitive user interface.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/Queenopex/FCC-random-quote-machine",
+      link: "https://opex-random-quote-machine.netlify.app/",
     },
     {
       id: 5,
@@ -113,7 +113,7 @@ export const navItems = [
       des: "An interactive Markdown Previewer that converts GitHub-flavored Markdown to HTML in real-time for seamless editing and visualization.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/Queenopex/FCC-markdown-previewer",
+      link: "https://opex-markdown-previewer.netlify.app/",
     },
     {
       id: 6,
@@ -121,7 +121,7 @@ export const navItems = [
       des: "A functional calculator website that performs real-time mathematical operations using formula logic, supporting precise calculations and seamless user input",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/Queenopex/FCC-calculator",
+      link: "https://calculator-by-opex.netlify.app/",
     },
     {
       id: 7,
@@ -129,7 +129,7 @@ export const navItems = [
       des: "An interactive drum machine website with clickable and keyboard-triggered pads that play audio clips and display corresponding sound names in real time.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Queenopex/FCC-drum-machine",
+      link: "https://drum-machine-by-opex.netlify.app/",
     },
   
    
@@ -137,17 +137,17 @@ export const navItems = [
   
   export const testimonials = [
     {
-      quote:
-        "Working with Oluwapelumi was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our work together. Oluwapelumi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oluwapelumi is the ideal partner.",
-      name: "Toyin Abdulsalam",
-      title: "Director of Adelaide Coding School",
-    },
+  quote:
+    "Working with Oluwapelumi was a great experience. She’s very intentional about her work and pays attention to details that many people overlook. Beyond just delivering, she takes the time to understand what you actually need and builds with that in mind. Her consistency and willingness to improve really stand out.",
+  name: "Toyin Abdulsalam",
+  title: "Director of Adelaide Coding School",
+},
     {
-      quote:
-        "Collaborating with Oluwapelumi was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Oluwapelumi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Oluwapelumi is the ideal partner.",
-      name: "Daniel",
-      title: "CEO OF Eronlanx Films",
-    },
+  quote:
+    "I really enjoyed working with Oluwapelumi. She’s reliable, easy to communicate with, and takes her work seriously. What stood out to me was how she approaches problems—she doesn’t just build, she thinks through what makes the most sense for the project. You can trust her to deliver something solid.",
+  name: "Daniel",
+  title: "CEO of Eronlanx Films",
+},
     /*{
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
